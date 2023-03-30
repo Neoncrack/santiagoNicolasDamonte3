@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(175, 175, 175);
+}
+
+.text-logo{
+    text-decoration: none;
+    color: gold;
+    font-size: 1000;
+
+}
+ul{
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: rgba(0, 0, 0, 0.877);
+}
+
+.contenedor-vehiculos{
+    display: grid;
+    grid-template-areas: 
+    'div div'
+    'div div'
+    ;
+}
